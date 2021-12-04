@@ -1,0 +1,21 @@
+section {
+    display: block;
+}
+.hero-section .figure-holder {
+    background: url(../images/phone1.png) no-repeat right top;
+    background-size: 480px auto;
+    min-height: 600px;
+}
+@media (max-width: 991.98px)
+.hero-section .figure-holder {
+    min-height: 460px;
+    background-position: right 0px;
+    background-size: 360px auto;
+}
+.logo-icon img{
+	width: 35px;
+}
+.btnSubmit{
+	padding: 10px !important;
+	text-align: center;
+}
